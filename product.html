@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Product</title>
+</head>
+<body>
+
+
+
+
+    <header id="header1">
+        <nav class="navbar containers">
+            <div class="navbar-logo">
+                <a href="index.html"><h2>Wums's <span>Cart</span></h2></a>
+            </div>
+
+            <ul class="navbar-links">
+                <li class="navbar-link"><a href="index.html">Home</a></li>
+                <li class="navbar-link"><a href="product.html">Product</a></li>
+            </ul>
+
+            <div class="navbar-icons">
+              
+                <img class="rrr " src="images/icons8-search-50.png" alt="" width="20px">
+                <img class="ddd" src="images/icons8-cart-30.png" alt=""  width="60px">
+                <span class="cart-length">0</span>
+              
+            </div>
+
+            <div class="mobile-menu-icon">
+            <span><i style="color: red;" class="bi bi-list"></i></span> 
+            <span><i style="color: red;" class="bi bi-x-lg hide"></i></span>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+
+
+
+    <nav class="mobile-nav slide">
+      <a href="index.html">Home</a>
+      <a href="product.html">Products</a>
+  </nav>
+
+
+    <section class="brand-section">
+      <div class="containers">
+        <div class="product-boxx ">
+
+          <div>
+            <div class="brand-border">
+              <div class="brand">
+                <span>
+                 <h3>Brand</h3>
+               <span><img onclick="dropDown()" src="images/caret-down-fill.svg" alt=""></span>
+                </span>
+               <div class="brand-items" id="drop-down-list">
+                 <p>Clothing</p>
+                 <p>Bags</p>
+                 <p>Watches</p>
+                 <p>Footwears</p>
+                 <p>Accessories</p>
+               </div>
+               </div>
+            </div>
+            <br><br>
+  
+  
+    
+            <div class="brand-box">
+              <div class="brand-delivery">
+                <span class="brand-delivery-car">
+                  <img src="images/Capturecar.PNG" alt="" width="50px">
+                <h3>Free Shipping <br> <p>Free Shipping World Wide</p></h3>
+                </span>
+      
+      
+                <span class="brand-timer">
+                  <img src="images/Capture222.PNG" alt="" width="45px">
+                  <h3>24 X 7 Service   <p>Online Service For 24 X 7</p></h3>
+                </span>
+      
+                <span class="brand-mic">
+                  <img src="images/mic.PNG" alt="" width="45px">
+                  <h3>Festival Offer   <p>New Online Special Festival Offer</p></h3>
+                </span>
+      
+                
+                <span class="brand-payment">
+                  <img src="images/online payment.PNG" alt="" width="45px">
+                  <h3>Online Payment  <p>New Online Special Festival Offer</p></h3>
+                </span>
+              </div>
+            </div>
+    
+          </div>
+
+          <div >
+            <img class="product-box-image" src="images/222.jpg" alt="" width="500px">
+          </div>
+  
+          <!-- quantity page -->
+  
+          <div>
+            <h1 class="product-h1">WATCH 1</h1>
+            
+            <div class="product-old-price">
+              <span class="product-price2"><del>260.00</del>
+              </span>
+              <span class="slashed-price">40% Off</span>
+            </div>
+
+            <div class="product-new-price"><h1>156.00</h1></div>
+            <div class="dotted-line"></div>
+             
+
+            <div class="quantity-box">
+              <p class="instock">InStock</p>
+              <p class="quantity">quantity</p>
+              
+    
+              <div class="adding-product">
+               <div class="product-quantity">
+                <div id="sub">-</div>
+                <div id="val">1</div>
+                <div id="add">+</div>
+               </div>
+              </div>
+              
+            </div>
+    
+            <div class="add-to-cart-container">
+              <div onclick="addingproduct()" id="product-add-to cart-btn" class="add-to-cart">
+                <p>ADD TO CART</p>
+              </div>
+              <div class="add-to-cart hide">
+                <p>BUY NOW</p>
+              </div>
+            </div>
+  
+          </div>
+
+        </div>
+
+        
+      </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- <section class="description-box-section">
+     <div class="description-box containers">
+      <h4 class="product-btn">DESCRIPTION</h4>
+      <h4 class="product-btn">WRITE REVIEWS</h4>
+      <h4 class="product-btn">DETAILS</h4>
+     </div>
+
+     <div class="details-box-list containers">
+
+      <div class="details-boxx-div">
+        <p onclick="productContainer()" class="product-container show-box">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          excepturi quod nihil reiciendis cumque officiis in sit exercitationem quis pariatur!
+        </p>
+
+        <p onclick="productContainer()" class="product-container">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          excepturi quod nihil reiciendis cumque officiis in sit exercitationem quis pariatur!
+        </p>
+
+        <p onclick="productContainer()" class="product-container">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          excepturi quod nihil reiciendis cumque officiis in sit exercitationem quis pariatur!
+        </p>
+
+      </div>
+
+     </div> -->
+    
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer128">
+
+        <div class="footer-box containers">
+          <div class="footer-titlee containers">
+            <h2>Wums's <span>Cart</span></h2>
+    
+            <p class="footer-paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, soluta excepturi. 
+              Harum cupiditate tenetur blanditiis 
+              illo molestiae perspiciatis autem sit libero, nobis dolore!</p>
+    
+              <div class="footer-icons">
+                <div><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                <div><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                 <div><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+                 <div><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+              </div>
+          </div>
+    
+          <div class="footer-listtt containers">
+            <div>
+              <ul>
+                <h2>MY ACCOUNT</h2>
+                <li>women clothing</li>
+                <li>Clothing</li>
+                <li>Accessories</li>
+                <li>Features</li>
+              </ul>
+            </div>
+    
+            <div>
+              <ul>
+                <h2>WHY WE CHOOSE</h2>
+                <li>women clothing</li>
+                <li>Clothing</li>
+                <li>Features</li>
+              </ul>
+            </div>
+    
+            <div>
+              <ul>
+                <h2>STORE INFORMATION</h2>
+                <li>Wums'sCart,Lagos, Nigeria</li>
+                <li>Call:08163202214</li>
+                <li class="email">Email: <a href="chibuezealaekwe24@gmail.com">chibuezealaekwe24</a></li>
+                <li>Fax:1001</li>
+              </ul>
+            </div>
+    
+          </div>
+    
+        </div>
+      </section>
+  
+  
+  
+      <section class="footer-twooo">
+        <div class="footerrr containers">
+          <div>
+            <p> &copy;2024 Hollalekan</p>
+          </div>
+  
+          <div class="footerrr-images">
+            <div><img src="images/visa.png" alt=""></div>
+            <div><img src="images/mastercard.png" alt=""></div>
+            <div><img src="images/american-express.png" alt=""></div>
+            <div><img src="images/paypal.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- cart-bar section -->
+     <section class="cart-bar">
+      <div class="side-bar cart-slide" id="side-bar">
+        <div class="sidebar-close">
+          <img class="sidebar-close" src="images/icons8-cancel-50.png" alt="">
+        </div>
+
+          <div class="cart-menu">
+            <h3>My Cart</h3>
+          </div>
+
+
+
+     <!-- cart interior -->
+
+     <div class="cart-wrapper">
+      <div class="cart">
+        <div class="cart-container">
+          <div>
+            <img src="images/trend4.jpg" alt="" width="100px">
+          </div>
+          <div class="cart-price-details">
+            <p>$156.00</p>
+            <span><del>$256.00</del></span>
+          </div>
+        </div>
+          <div class="cart-details">
+            <div class="cart-count">
+              <input type="number" min="1">
+            </div>
+            <div class="btn-remove">
+              <div>Delete</div>
+            </div>
+          </div>
+  
+      </div>
+
+    </div>
+
+          <div class="sidebar-footer">
+            <div class="total-amount">
+              <h5>Total</h5>
+              <div class="cart-total">0.00</div>
+            </div>
+            <button class="checkout-btn">Chect-out</button>
+
+          </div>
+      </div>
+
+    </section>
+    
+              
+  
+  
+
+      <script src="alaska.js"></script>
+      <script src="basket.js"></script>
+      <script src="product.js"></script>
+</body>
+</html>
